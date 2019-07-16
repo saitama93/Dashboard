@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Abril Fatface", cursive;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d35400), to(#fa741e));
+  background: linear-gradient(#d35400, #fa741e);
+  padding-top: 100px;
+}
+
+header .user-info {
+  padding-left: 30px;
+}
+
+header .user-info h3 {
+  color: black;
+  margin-left: 15px;
+}
+
+header .user-info i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+header ul li {
+  margin: 20px 0;
+  padding: 20px 0;
+  list-style: none;
+}
+
+header ul li i {
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+header ul li a {
+  color: white;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+header ul li a:hover {
+  color: white;
+}
+
+header ul li:hover {
+  background-color: black;
+  color: white;
+}
+
+header .logo img {
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+}
+
+main {
+  padding-left: 250px;
+  background-image: url("../img/joueur-avec-ballon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 50px;
+  color: white;
+}
+
+main .intro .intro-content {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 150px 200px 0 0;
+}
+
+main .intro .intro-content p {
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
