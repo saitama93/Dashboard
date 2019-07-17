@@ -3,7 +3,8 @@
 <html>
 
 <head>
-	<title>Registration system PHP and MySQL</title>
+	<title>All Stars </title>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -16,8 +17,8 @@
 			<!-- <div class="row"> -->
 			<div class="login ">
 				<div class="row">
-					<h1 id="titre-appli" class="col-12">TITRE</h1>
-					<div class="header-form offset-6 col-6">
+					<h1 id="titre-appli" class="col-12">ALL STARS BESAC'</h1>
+					<div class="header-form offset-3 col-6">
 						<h2 id="btn_connection">Connection</h2>
 					</div>
 					<form class="form-login col-6" method="post" action="login.php">

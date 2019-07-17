@@ -12,7 +12,7 @@ include('functions.php');
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
+ 
 
 
 </head>

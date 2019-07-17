@@ -2,10 +2,141 @@
   margin: 0;
 }
 
-body {
-  background-image: url("../img/fond-login.jpg");
+h1,
+h2,
+h3 {
+  font-family: "Abril Fatface", cursive;
+}
+
+body #home-user {
+  padding-left: 250px;
+  background-image: url("../img/joueur-avec-ballon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  padding-top: 50px;
+  color: white;
+}
+
+body #home-user .btn-header {
+  position: absolute;
+  left: 0;
+  padding: 15px;
+}
+
+body #home-user .open-header, body #home-user .close-header {
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  left: 0;
+  cursor: pointer;
+}
+
+body #home-user .close-header {
+  display: none;
+}
+
+body #home-user .open-header {
+  display: block;
+}
+
+body #home-user .intro .intro-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 150px;
+}
+
+body #home-user .intro .intro-content p {
+  color: white;
+}
+
+header {
+  position: fixed;
+  left: -20%;
+  top: 0;
+  height: 100vh;
+  width: 20%;
+  background-color: #fefefe;
+  padding-top: 90px;
+  color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    width: 30%;
+    padding-top: 90px;
+    margin-top: 0;
+  }
+}
+
+header .user-info {
+  padding-left: 30px;
+}
+
+header .user-info h3 {
+  color: black;
+  margin-left: 15px;
+}
+
+header .user-info i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+header ul {
+  margin-top: 120px;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 1366px) {
+  header ul {
+    padding-top: 0;
+    margin-top: 30px;
+  }
+}
+
+header ul li {
+  padding: 20px 0;
+  margin: 15px 0;
+  list-style: none;
+}
+
+@media only screen and (max-width: 1366px) {
+  header ul li {
+    margin: 10px 0;
+  }
+}
+
+header ul li i {
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+header ul li a {
+  color: black;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1366px) {
+  header ul li a {
+    font-size: 20px;
+  }
+}
+
+header ul li a:hover {
+  color: white;
+}
+
+header ul li:hover {
+  background-color: black;
+  color: white;
+}
+
+header .logo img {
+  position: absolute;
+  bottom: 0;
+  left: 22%;
 }
 
 .login {
@@ -16,6 +147,9 @@ body {
 .login h1 {
   color: #d35400;
   text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .login .focus-input100::after {
@@ -69,8 +203,6 @@ body {
   color: black;
   opacity: 1;
   font-weight: 700;
-  width: 350px !important;
-  padding-left: 40%;
 }
 
 .form-login,
@@ -163,5 +295,19 @@ body {
   background: #dff0d8;
   border: 1px solid #3c763d;
   margin-bottom: 20px;
+}
+
+#create-user {
+  background-image: url("../img/create-user.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+}
+
+#create-user .intro h1 {
+  font-size: 90px;
+  color: #d35400;
+  font-family: "Fira Sans", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
