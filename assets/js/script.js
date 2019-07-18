@@ -15,8 +15,8 @@ function showHeader() {
     console.log('yooo');
     header.style.left = "0%";
     open_header.style.left = "0%";
-    close_header.style.left = "20%";
-    btn_header.style.left = "20%";
+    close_header.style.left = "30%";
+    btn_header.style.left = "30%";
     open_header.style.display = "none";
     close_header.style.display = "block";
     header.style.transition = "all 2s";
@@ -27,9 +27,9 @@ function showHeader() {
 
 function hiddenHeader() {
     console.log('salut');
-    header.style.left = "-20%";
+    header.style.left = "-50%";
     open_header.style.left = "0%";
-    close_header.style.left = "20%";
+    close_header.style.left = "30%";
     btn_header.style.left = "0%";
     open_header.style.display = "block";
     close_header.style.display = "none";

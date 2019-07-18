@@ -8,7 +8,7 @@ h3 {
   font-family: "Abril Fatface", cursive;
 }
 
-body #home-user {
+body #home-user, body #home-admin {
   padding-left: 250px;
   background-image: url("../img/joueur-avec-ballon.jpg");
   background-repeat: no-repeat;
@@ -18,13 +18,15 @@ body #home-user {
   color: white;
 }
 
-body #home-user .btn-header {
+body #home-user .btn-header, body #home-admin .btn-header {
   position: absolute;
   left: 0;
   padding: 15px;
 }
 
-body #home-user .open-header, body #home-user .close-header {
+body #home-user .open-header,
+body #home-user .close-header, body #home-admin .open-header,
+body #home-admin .close-header {
   position: absolute;
   color: white;
   font-size: 45px;
@@ -32,26 +34,34 @@ body #home-user .open-header, body #home-user .close-header {
   cursor: pointer;
 }
 
-body #home-user .close-header {
+body #home-user .close-header, body #home-admin .close-header {
   display: none;
 }
 
-body #home-user .open-header {
+body #home-user .open-header, body #home-admin .open-header {
   display: block;
 }
 
-body #home-user .intro .intro-content {
+body #home-user .intro .intro-content, body #home-admin .intro .intro-content {
   background-color: rgba(0, 0, 0, 0.8);
   margin-top: 150px;
 }
 
-body #home-user .intro .intro-content p {
+body #home-user .intro .intro-content p, body #home-admin .intro .intro-content p {
   color: white;
+}
+
+body #header-admin ul li {
+  list-style: none;
+}
+
+body #header-admin ul li a {
+  text-decoration: none;
 }
 
 header {
   position: fixed;
-  left: -20%;
+  left: -50%;
   top: 0;
   height: 100vh;
   width: 20%;
@@ -124,13 +134,13 @@ header ul li a {
   }
 }
 
-header ul li a:hover {
-  color: white;
-}
-
 header ul li:hover {
   background-color: black;
   color: white;
+}
+
+header ul li:hover a {
+  color: #d35400;
 }
 
 header .logo img {
@@ -139,8 +149,14 @@ header .logo img {
   left: 22%;
 }
 
+#section-login {
+  background-image: url("../img/fond-login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .login {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 25vh;
 }
 

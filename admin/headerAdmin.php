@@ -1,6 +1,6 @@
 <?php ?>
 
- <header id="header">
+ <header id="header-admin">
 
     <div class="user-info d-flex">
       <i class="far fa-user"></i>
@@ -8,9 +8,9 @@
     </div>
 
     <ul class="d-flex flex-column ">
-      <li><i class="fas fa-home"></i><a href="../index.php">Accueil</a></li>
-      <li><i class="far fa-bell"></i><a href="../notification.php">Notifications</a></li>
-      <li><i class="fas fa-cog"></i><a href="">Parametres</a></li>
+      <li><i class="fas fa-home"></i><a href="home.php">Accueil</a></li>
+      <li><i class="far fa-bell"></i><a href="../notification.php">Statistiques</a></li>
+      <li><i class="fas fa-cog"></i><a href="create_user.php">Créer un compte user</a></li>
       <li><i class="fas fa-sign-out-alt"></i><a href="../index.php?logout='1'">Déconnection</a></li>
     </ul>
     <div class="logo"><a href="../index.php"><img src="../assets/img/logo.png" class="img-fluid" height="145" width="186" alt=""></a></div>

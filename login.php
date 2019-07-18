@@ -12,7 +12,7 @@
 
 <body>
 
-	<div class="container-fluid">
+	<section id="section-login" class="container-fluid">
 		<div class="container">
 			<!-- <div class="row"> -->
 			<div class="login ">
@@ -43,7 +43,7 @@
 				<!-- </div> -->
 			</div>
 		</div>
-	</div>
+</section>
 
 
 
